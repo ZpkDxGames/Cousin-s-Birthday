@@ -29,7 +29,7 @@ Hey, uhm, it's pretty complicated to open up like that, mainly to someone I cons
 
 Anyway, I wanted to make sure this year you had something special, since you're so special to me as well, hope you enjoyed the little quiz, and I'm glad you choose English as the language being executed right now. Hah, you have no idea how much I tried to make this shit work out, lmao.
 
-How have you been? Kinda distant, I don't really know why I'm being this glingy to you guys this year, have no idea, seriously, maybe I just consider you all as part of my family, more than my own family.
+How have you been? Kinda distant, I don't really know why I'm being this clingy to you guys this year, have no idea, seriously, maybe I just consider you all as part of my family, more than my own family.
 
 I can tell you've been through a lot lately, school, personal live, relationship, it can be stressfull, I know, but you'll never be alone, trust me. Whenever you feel stressout, or just craving to end everything, give up even, don't forget you're more than capable of making through it! You're more than enough. At the end, I'll be there, cheering for you, so loud, that you won't even notice the ones not cheering for you.
 
@@ -59,7 +59,7 @@ So that's it, Mariana, bestie, cousing, not from the blood, but from the heart. 
 
 Enfim, eu só queria garantir que esse ano você tivesse algo especial, já que você também é muito especial pra mim. Espero que tenha curtido o quiz, e fico feliz que tenha escolhido português como a linguagem sendo executada agora. Hah, você não faz ideia do quanto eu tentei fazer essa parada funcionar, e como ta estranho falar isso em português- geralmente eu não me abro na minha língua materna.
 
-Como você tem estado? Meio distante... eu nem sei direito por que tô tão grudado em vocês esse ano, de verdade, talvez eu só considere vocês como minha família, mais do que a minha própria família.
+Como você tem estado? Meio distante... eu nem sei direito por que tô tão apegado a vocês esse ano, de verdade, talvez eu só considere vocês como minha família, mais do que a minha própria família.
 
 Dá pra ver que você tem passado por muita coisa ultimamente- escola, vida pessoal, relacionamento... pode ser bem estressante, eu sei. Mas você nunca vai estar sozinha, sério. Sempre que se sentir sobrecarregada, ou com vontade de desistir de tudo, não esquece que você é mais do que capaz de passar por isso. Você é mais do que o suficiente. E no fim, eu vou estar lá, torcendo por você tão alto, que nem vai notar quem não tá torcendo.
 
