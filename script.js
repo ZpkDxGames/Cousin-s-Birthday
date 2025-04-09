@@ -12,7 +12,7 @@ const quizData = {
       { question: "What was the first singer you actually made me addicted for... well, I'm still addicted...", answers: ["Lady Gaga", "Panic! At the Disco", "Arctic Monkeys", "Camila Cabello"], correct: "Arctic Monkeys" },
       { question: "Which country we'll be together and enjoy the climate?", answers: ["Japan", "China", "Argentina", "Canada"], correct: "Canada" },
       { question: "If this feelin' flows both ways?", answers: ["You couldnt blame me, though", "Sad to see you go...", "You dont have to run...", "Yeah, I got bitter when you got cold"], correct: "Sad to see you go..." },
-      { question: "What we are? More than you're thinking", answers: ["Cousins", "Best friends", "Bitches", "Strangers"], correct: "Cousins" },
+      { question: "What are we? More than you're thinking", answers: ["Cousins", "Best friends", "Bitches", "Strangers"], correct: "Cousins" },
     ],
     results: [
       "Impossible... I'll cry now",
