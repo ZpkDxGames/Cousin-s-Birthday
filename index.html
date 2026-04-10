@@ -1,23 +1,131 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>🎂🎉</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>For You ✉</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/splash.css">
+  <link rel="stylesheet" href="src/css/hub.css">
+  <link rel="stylesheet" href="src/css/pages.css">
 </head>
 <body>
-  <div id="app" class="container">
-    <div class="language-selector-popup">
-      <h1>🎂🌎🎉</h1>
-      <div class="language-buttons">
-        <button id="btn-en">🇺🇸 English</button>
-        <button id="btn-pt">🇧🇷 Português</button>
+  <div id="splash">
+    <!-- Floating particles background -->
+    <div class="particles" aria-hidden="true"></div>
+
+    <!-- Animated light streaks -->
+    <div class="streaks" aria-hidden="true">
+      <div class="streak"></div>
+      <div class="streak"></div>
+      <div class="streak"></div>
+      <div class="streak"></div>
+      <div class="streak"></div>
+    </div>
+
+    <!-- Loading phase -->
+    <div class="loader">
+      <!-- Name reveal: letters drop in one by one -->
+      <div class="loader-name" aria-hidden="true">
+        <span class="ln">M</span><span class="ln">a</span><span class="ln">r</span><span class="ln">i</span>
+      </div>
+      <!-- Expanding accent lines -->
+      <div class="loader-lines" aria-hidden="true">
+        <div class="ll ll--left"></div>
+        <div class="ll ll--right"></div>
+      </div>
+      <!-- Sub-label -->
+      <span class="loader-label">Preparing something special…</span>
+      <!-- Progress bar -->
+      <div class="loader-bar-wrap" aria-hidden="true">
+        <div class="loader-bar-track">
+          <div class="loader-bar-fill"></div>
+        </div>
+        <span class="loader-percent">0%</span>
       </div>
     </div>
+
+    <!-- Envelope (hidden initially, morphs in after load) -->
+    <div class="envelope" aria-label="Letter" role="button" tabindex="0">
+      <div class="envelope-body">
+        <div class="envelope-flap"></div>
+        <!-- Letter sheet peeks out when opened -->
+        <div class="envelope-letter">
+          <span class="letter-text">for you ♡</span>
+        </div>
+        <div class="envelope-heart">&#10084;</div>
+      </div>
+      <span class="envelope-hint">Tap to open</span>
+    </div>
+
+    <!-- Circle wipe transition overlay -->
+    <div class="circle-wipe" aria-hidden="true"></div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-  <script src="script.js"></script>
+
+  <main id="hub" class="hub" hidden>
+    <!-- Ambient hub particles -->
+    <div class="hub-particles" aria-hidden="true"></div>
+
+    <div class="hub-inner">
+      <h1 class="hub-title">Happy Birthday, Mari! 🎂</h1>
+      <p class="hub-subtitle">Choose a surprise</p>
+
+      <div class="hub-grid">
+
+        <!-- Gallery card -->
+        <button class="hub-card hub-card--gallery" data-page="gallery" aria-label="Photo gallery">
+          <div class="hub-card__shine" aria-hidden="true"></div>
+          <div class="hub-card__bg" aria-hidden="true"></div>
+          <div class="hub-card__icon" aria-hidden="true">
+            <span class="card-icon-inner">📸</span>
+            <div class="card-icon-ring"></div>
+          </div>
+          <div class="hub-card__text">
+            <span class="hub-card__label">Gallery</span>
+            <span class="hub-card__sub">Our photos</span>
+          </div>
+          <div class="hub-card__arrow" aria-hidden="true"></div>
+        </button>
+
+        <!-- Jokes card -->
+        <button class="hub-card hub-card--jokes" data-page="jokes" aria-label="Jokes">
+          <div class="hub-card__shine" aria-hidden="true"></div>
+          <div class="hub-card__bg" aria-hidden="true"></div>
+          <div class="hub-card__icon" aria-hidden="true">
+            <span class="card-icon-inner">🎭</span>
+            <div class="card-icon-ring"></div>
+          </div>
+          <div class="hub-card__text">
+            <span class="hub-card__label">Jokes</span>
+            <span class="hub-card__sub">Laugh or not?</span>
+          </div>
+          <div class="hub-card__arrow" aria-hidden="true"></div>
+        </button>
+
+        <!-- Message card — last -->
+        <button class="hub-card hub-card--message" data-page="message" aria-label="Special message">
+          <div class="hub-card__shine" aria-hidden="true"></div>
+          <div class="hub-card__bg" aria-hidden="true"></div>
+          <div class="hub-card__icon" aria-hidden="true">
+            <span class="card-icon-inner">💌</span>
+            <div class="card-icon-ring"></div>
+          </div>
+          <div class="hub-card__text">
+            <span class="hub-card__label">Message</span>
+            <span class="hub-card__sub">A letter for you</span>
+          </div>
+          <div class="hub-card__arrow" aria-hidden="true"></div>
+        </button>
+
+      </div>
+    </div>
+  </main>
+
+  <script src="src/js/splash.js"></script>
 </body>
 </html>
