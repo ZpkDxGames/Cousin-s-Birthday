@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="page-standalone">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Our Photos ✉</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/splash.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body id="page-gallery" class="page-standalone">
+
+  <button class="page-back" id="back-btn" aria-label="Go back">Back</button>
+
+  <div class="page-header">
+    <h2 class="page-title">Our photos</h2>
+    <p class="page-subtitle">We do need to take more, btw</p>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item" data-index="0"><img src="../media/pics/photo_1.webp" alt="Memory 1" loading="lazy"><span class="gallery-item__caption">Memory 01</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+    <div class="gallery-item" data-index="1"><img src="../media/pics/photo_2.webp" alt="Memory 2" loading="lazy"><span class="gallery-item__caption">Memory 02</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+    <div class="gallery-item" data-index="2"><img src="../media/pics/photo_3.webp" alt="Memory 3" loading="lazy"><span class="gallery-item__caption">Memory 03</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+    <div class="gallery-item" data-index="3"><img src="../media/pics/photo_4.webp" alt="Memory 4" loading="lazy"><span class="gallery-item__caption">Memory 04</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+    <div class="gallery-item" data-index="4"><img src="../media/pics/photo_5.webp" alt="Memory 5" loading="lazy"><span class="gallery-item__caption">Memory 05</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+    <div class="gallery-item" data-index="5"><img src="../media/pics/photo_6.webp" alt="Memory 6" loading="lazy"><span class="gallery-item__caption">Memory 06</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+    <div class="gallery-item" data-index="6"><img src="../media/pics/photo_7.webp" alt="Memory 7" loading="lazy"><span class="gallery-item__caption">Memory 07</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+    <div class="gallery-item" data-index="7"><img src="../media/pics/photo_8.webp" alt="Memory 8" loading="lazy"><span class="gallery-item__caption">Memory 08</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+    <div class="gallery-item" data-index="8"><img src="../media/pics/photo_9.webp" alt="Memory 9" loading="lazy"><span class="gallery-item__caption">Memory 09</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+    <div class="gallery-item" data-index="9"><img src="../media/pics/photo_10.webp" alt="Memory 10" loading="lazy"><span class="gallery-item__caption">Memory 10</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+    <div class="gallery-item" data-index="10"><img src="../media/pics/photo_11.webp" alt="Memory 11" loading="lazy"><span class="gallery-item__caption">Memory 11</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+    <div class="gallery-item" data-index="11"><img src="../media/pics/photo_12.webp" alt="Memory 12" loading="lazy"><span class="gallery-item__caption">Memory 12</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+    <div class="gallery-item" data-index="12"><img src="../media/pics/photo_13.webp" alt="Memory 13" loading="lazy"><span class="gallery-item__caption">Memory 13</span><div class="gallery-item__expand" aria-hidden="true"></div></div>
+  </div>
+
+  <!-- Lightbox overlay -->
+  <div id="gallery-lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lightbox-close" aria-label="Close">&#215;</button>
+    <button class="lightbox-btn lightbox-btn--prev" aria-label="Previous photo"></button>
+    <div class="lightbox-img-wrap">
+      <img id="lightbox-img" src="" alt="">
+      <span class="lightbox-caption"></span>
+    </div>
+    <button class="lightbox-btn lightbox-btn--next" aria-label="Next photo"></button>
+    <span class="lightbox-counter"></span>
+  </div>
+
+  <script src="../js/gallery.js"></script>
+</body>
+</html>
